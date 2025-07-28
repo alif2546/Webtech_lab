@@ -1,0 +1,98 @@
+body {
+   background-color: #f0f2f5;
+   color: #333;
+   width: 60%;
+   margin: 50px auto;
+   border: black 1px solid;
+   border-radius: 10px;
+   padding: 20px;
+}
+
+h2 {
+   color: red;
+   text-align: center;
+   margin-bottom: 25px;
+   padding-bottom: 10px;
+   border-bottom: 4px solid black;
+}
+
+.doner-info,.honorarium-info,.additinal-info {
+   border: 2px solid red;
+   border-radius: 8px;
+   padding: 25px;
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-bottom: 25px;
+   background-color:white ;
+}
+
+
+
+.form-group label {
+    margin-right: 15px;
+    text-align: right;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],input[type="number"],input[type="email"],
+input[type="address"],
+input[type="tel"],
+input[type="fax"],
+textarea,
+select {
+    width: 98%;
+    padding: 10px 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+
+
+}
+
+
+.donation-options label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+    text-align: left;
+    margin-right: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+
+p {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.85em;
+    color: #666;
+}
+
+.footer button {
+
+    font-weight: bold;
+    margin: 10px 15px;
+    padding: 10px 25px;
+    background-color:green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

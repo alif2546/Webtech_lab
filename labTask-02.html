@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab02:Task01</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="body">
+<div class="doner-info">
+<h2>Doner Information</h2>
+<Div class="form">
+<form action="/submit_doner_info" method="post">
+
+  <label for="name">First Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="name">Last Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="name">Company:</label>
+  <input type="text" id="name" name="name"><br><br>
+   <label for="address 1">Address 1:</label>
+   <input type="address" id="address1" name="address1"><br><br>
+   <label for="address 2">Address 2:</label>
+   <input type="address" id="address2" name="address2"><br><br>
+   <label for="city">City:</label>
+   <input type="text" id="city" name="city"><br><br>
+   <label for="state">State:</label>
+   <select name="state" id="state" >
+      <option value="">Select a State</option>
+      <option value="DK">DHAKA</option>
+      <option value="CH">CHITTAGONG</option>
+      <option value="BR">BRAHMANBARIA</option>
+   </select><br><br>
+   <label for="zipcode">Zip Code:</label>
+   <input type="number" id="number" name="zipcode"><br><br>
+   <label for="country">Country</label>
+       <select id="country" name="country" required>
+          <option value="">Select a Country</option>
+          <option value="BD">BANGLADESH</option>
+          <option value="NO">NOAKHALI</option>
+       </select>
+   <br><br>
+   <label for="phone">Phone</label>
+   <input type="tel" id="phone" name="phone"><br><br>
+   <label for="Fax">Fax</label>
+   <input type="fax" id="fax" name="fax"><br><br>
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email"><br><br>
+   <label>Donation Amount</label>
+   <label>
+      <input type="radio" name="donation_amount" value="None" checked>
+      None
+   </label>
+   <label>
+      <input type="radio" name="donation_amount" value="$50" checked>
+      $50
+   </label>
+   <label>
+      <input type="radio" name="donation_amount" value="$75" checked>
+      $75
+   </label>
+   <label>
+      <input type="radio" name="donation_amount" value="$100" checked>
+      $100
+   </label>
+   <h6>(check a amount or type your amount)</h6>
+   <label for="Amount">Other Amount $</label>
+   <input type="number" id="number" name="number"><br><br>
+   <label>Recurring Donation (Check if yer)</label>
+   <label>
+    <input type="radio" name="recurring_donation" value="Yes">
+      I am interested in giving on a regular basis.
+   </label><br><br>
+   <span>Monthly Credit Card $</span>
+      <input type="number" name="monthly_credit_card_amount">
+      <span>For</span>
+      <input type="number" name="recurring_months">
+      <span>Months
+   </span>
+</div>
+</div>
+<div class="honorarium-info">
+   <h2>Honorarium and Memorial Donation Information</h2>
+<div class="form">
+   <label>I would like to make a
+      donation 
+   </label><br>
+   <label>
+      <input type="radio" name="donation_type" value="To Honor">
+       To Honor
+   </label><br>
+    <label>
+         <input type="radio" name="donation_type" value="In Memory of">
+         In Memory of
+         </label><br><br>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+ <label for="acknowledge-donation-to">Acknowledge Donation to</label>
+   <input type="text" id="acknowledge-donation-to" name="acknowledge_donation_to"><br><br>
+   <label for="address ">Address :</label>
+   <input type="address" id="address1" name="address1"><br><br>
+   <label for="city">City:</label>
+   <input type="text" id="city" name="city"><br><br>
+   <label for="state">State:</label>
+   <select name="state" id="state" >
+      <option value="">Select a State</option>
+      <option value="DK">DHAKA</option>
+      <option value="CH">CHITTAGONG</option>
+      <option value="BR">BRAHMANBARIA</option>
+   </select><br><br>
+   <label for="zipcode">Zip Code:</label>
+   <input type="number" id="number" name="zipcode"><br><br>
+</div>
+</div>
+<div class="additinal-info">
+   <h2>Additional Information</h2>
+    <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+<div class="form">
+   <label for="publication-name">Name</label>
+   <input type="text" id="publication-name" name="publication_name"><br><br>
+      <label>
+      <input type="checkbox" name="anonymous_gift">
+        I would like my gift to remain anonymous.
+      </label><br>
+   <label>
+      <input type="checkbox" name="matching_gift">
+      My employer offers a matching gift program. I will mail the matching gift form.
+   </label><br>
+   <label>
+      <input type="checkbox" name="no_thank_you_letter">
+      Please save the cost of acknowledging this gift by not mailing a thank you letter.
+   </label><br><br>
+            <label for="">Comments</label><br>
+            <p>(Please type any questions or feedback here)</p>
+            <textarea name="" id="" cols="40" rows="10"></textarea><br><br>
+            <label for="">How may we contact you? </label><br>
+            <input type="checkbox" name="" id="">E-mail <br>
+            <input type="checkbox" name="" id="">Postal mail <br>
+            <input type="checkbox" name="" id="">Telephone <br>
+            <input type="checkbox" name="" id="">Fax <br>
+
+            <p>I would like to receive newsletters and information about special evenets by:</p>
+            <input type="checkbox" name="" id="">E-mail <br>
+            <input type="checkbox" name="" id="">Postal mail <br><br>
+
+            <input type="checkbox" name="" id=""> I would like information about voulenteering with AIUB. <br><br>
+</div>
+</div>
+<div class="footer">
+            <button> Reset </button> <button> Continue </button><br>
+            <p>Donate onlne with confidence. You are on a secure server</p>
+            <p>If you have any problems or questions, please contact <a href="#">support</a></p>
+</div>
+
+</div>
+</body>
+</html>
