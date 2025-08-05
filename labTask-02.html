@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+ <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lab02:Task01</title>
 <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+<script src="task03.js"></script> 
 <div class="body">
 <div class="doner-info">
 <h2>Doner Information</h2>
 <Div class="form">
-<form action="/submit_doner_info" method="post">
+<form id="donationform" action="/submit_doner_info" method="post">
 
   <label for="name">First Name:</label>
   <input type="text" id="name" name="name"><br><br>
@@ -150,7 +152,7 @@
 </div>
 </div>
 <div class="footer">
-            <button> Reset </button> <button> Continue </button><br>
+            <button id ="resetBtn"> Reset </button><button id="continueBtn">Continue</button><br>
             <p>Donate onlne with confidence. You are on a secure server</p>
             <p>If you have any problems or questions, please contact <a href="#">support</a></p>
 </div>
